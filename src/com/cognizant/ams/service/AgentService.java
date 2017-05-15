@@ -7,7 +7,8 @@ import com.cognizant.ams.vo.AgentDetailsReturnVO;
 import com.cognizant.ams.vo.AgentDetailsVO;
 
 public interface AgentService {
-	public List<AgentDetailsReturnVO> registerAgent(Agent agent);
-	public Agent getAgentObject(AgentDetailsVO advo);
-	
+    public List<AgentDetailsReturnVO> registerAgent(Agent agent);
+
+    public Agent getAgentObject(AgentDetailsVO advo);
+
 }
